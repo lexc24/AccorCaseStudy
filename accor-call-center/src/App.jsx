@@ -5,19 +5,19 @@ export default function App() {
   useEffect(() => {
     (function (w, d, x, id) {
       const s = d.createElement("script");
-      s.src = "https://g3demo.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js";
+      s.src = "https://lexaws222-demo.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js";
       s.async = true;
       s.id = id;
       d.getElementsByTagName("head")[0].appendChild(s);
       w[x] = w[x] || function () { (w[x].ac = w[x].ac || []).push(arguments); };
-    })(window, document, "amazon_connect", "536e31cb-6097-41ba-860b-eec9782ad9b1");
+    })(window, document, "amazon_connect", "a6018f13-345c-4fa8-9ef1-601199d6559f");
 
     window.amazon_connect("styles", {
       iconType: "CHAT_VOICE",
       openChat: { color: "#ffffff", backgroundColor: "#123456" },
       closeChat: { color: "#ffffff", backgroundColor: "#123456" },
     });
-    window.amazon_connect("snippetId", "QVFJREFIZ1NqZWV5MTExbXUwZXRHZUlvQ2NPT3RQZ1k4bTl0VDhTaTZYcy9YcFVCVHdHN29NRUI2MlRaby9PKzAwclAvMDNVQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNdExySFJoZXZKSDBwcERRMUFnRVFnQ3U5VnZJOTJwaE1wSnNyMEMxcmFRc1UvSWdvSW9RREw2blRVY0VWT3RuUDRENnNkRG9sQUt0aDVpU0c6OmoyQ0R5ZUpUMXY0VlFiT09UeG5nbFFNZ1djOSsyZElDV1NacUhiMGlNdFRmZEZHSWFCMXRubVdOMk5HRmJWTWh2TlZaaTEvUjhMZlpRS0ZRdENoZ3djb3NtalJmL2h4OGl3Y1lFMlU4bjhmOHl5STdmSGhDMEgxbUZkb1g0cjhqVGVnKzhkLzhoVDQxcHRyRGxocEppRXhsRVhCb1NSdz0=");
+    window.amazon_connect("snippetId", "QVFJREFIaDRobWZ4TDRrQys5SXJsU0RsT2NjaHpDOEQvN3ZqSEZkQWdhY1I3SUhoUXdGRXVrRkZHakFHZm5jVFViODQ2aVFmQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNMTRmdGFENlZBRXg3RDVHeEFnRVFnQ3RidjQ4YlVmV054OEorRTZ5ZjhLTHU3cnQwdHVjMnlWM0tXZFpYbE5NNHpibjYwOGZlYmVzNnZaNXk6OjIvTi9UdkNMVHJnMTZTWEtLU1N2QjZMWWdGZHRqbkJUVHlDaWhwQjVnTis1UXR0YUNyWld4VFVSbmhoR0Z0YWw0ZVp1VExxa2R4aHRHdWMzZEZDb1ljNm1wSTNEcEV6ckZmb3o4cmNWeUlUZkNCUExCMEhwTE5DMEl2RWd1NWlRL1BwWDd4N3c5Ui95eHg2bnA5am5JL3lKeVNidSt4az0=");
     window.amazon_connect("supportedMessagingContentTypes", [
       "text/plain",
       "text/markdown",
